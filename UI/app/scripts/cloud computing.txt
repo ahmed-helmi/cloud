@@ -1,0 +1,33 @@
+API Key:
+96F-UgjUxlmiqUgiUiEa4-9inkw1V6-_CEH6bP0GvyHY
+
+URL:
+https://gateway-lon.watsonplatform.net/speech-to-text/api
+
+CURL REQUEST:
+curl -X POST -u "apikey:96F-UgjUxlmiqUgiUiEa4-9inkw1V6-_CEH6bP0GvyHY" --header "Content-Type: audio/flac" --data-binary @{full flac audio file path} "https://gateway-lon.watsonplatform.net/speech-to-text/api/v1/recognize"
+
+
+
+
+
+
+
+
+API Key:
+piSe4GRX3lUES0f9ODEN0QLIXrN5YtB5_GavalP76Dnu
+
+URL:
+https://gateway.watsonplatform.net/visual-recognition/api
+
+curl -u "apikey:piSe4GRX3lUES0f9ODEN0QLIXrN5YtB5_GavalP76Dnu" "https://gateway.watsonplatform.net/visual-recognition/api/v3/classify?url={url to image}&version=2018-03-19"
+
+curl -X POST -u "apikey:piSe4GRX3lUES0f9ODEN0QLIXrN5YtB5_GavalP76Dnu" --header "Content-Type: image/png" --data-binary @{full png image file path} "https://gateway.watsonplatform.net/visual-recognition/api/v3/classify?version=2018-03-19"
+
+
+
+
+
+
+# cut video
+ffmpeg -ss 00:01:00 -i input.mp4 -to 00:02:00 -c copy output.mp4

@@ -1,0 +1,20 @@
+{
+  "name": "cloud",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+
+  "devDependencies": {
+    "shelljs": "0.8.3",
+    "express": "4.17.0",
+    "body-parse": "0.1.0",
+    "multer": "1.4.1",
+    "formidable": "1.2.1"
+  }
+}
