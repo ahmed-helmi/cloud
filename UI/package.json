@@ -10,7 +10,7 @@
   "author": "",
   "license": "ISC",
 
-  "devDependencies": {
+  "dependencies": {
     "shelljs": "0.8.3",
     "express": "4.17.0",
     "body-parse": "0.1.0",
